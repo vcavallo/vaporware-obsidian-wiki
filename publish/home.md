@@ -9,13 +9,13 @@ This is a wiki-style knowledge-management system intended to help clarify [OPfN]
 
 ---
 
-[[Pallas]] is a [[free]] and [[open source]], [[distributed]] [[operating function]] designed for use by individual people, not corporations. It is our belief that a personal internet, composed of [[personal server]] computers entirely owned by normal people, is both possible and desirable.
+[[pallas|Pallas]] is a [[free]] and [[open source]], [[distributed]] [[operating function]] designed for use by individual people, not corporations. It is our belief that a personal internet, composed of [[personal server]] computers entirely owned by normal people, is both possible and desirable.
 
-Pallas runs on the [[Plunder]] [[virtual machine]]. Plunder is a [[solid-state interpreter]]: a [[programming environment]] which combines [[orthogonal persistence|automatic orthogonal persistence]], [[functional programming]], and [[homoiconicity]]. Imagine an [[exokernel]]-like Scheme [[lisp machine]] with automatically persisted application state, and you’re not far off the mark. Plunder and Pallas are not the same project, but share some of the same long term goals; Pallas is the first third-party developer to adopt the Plunder software stack.
+Pallas runs on the [[plunder|Plunder]] [[virtual machine]]. Plunder is a [[solid-state interpreter]]: a [[programming environment]] which combines [[orthogonal persistence|automatic orthogonal persistence]], [[functional programming]], and [[homoiconicity]]. Imagine an [[exokernel]]-like Scheme [[lisp machine]] with automatically persisted application state, and you’re not far off the mark. Plunder and Pallas are not the same project, but share some of the same long term goals; Pallas is the first third-party developer to adopt the Plunder software stack.
 
 The main pieces of the Pallas system are:
 
-- [[PLAN]]: the [[data model]] and [[graph reduction]] system of Plunder
-- [[Sire]]: a functional language, [[bootstrap|bootstrapped]] from PLAN
+- [[plan|PLAN]]: the [[data model]] and [[graph reduction]] system of Plunder
+- [[sire|Sire]]: a functional language, [[bootstrap|bootstrapped]] from PLAN
 - [[cog|Cogs]]: a [[microservices]] architecture for development of [[user space]] applications and [[appliances]]
-- [[runtime]]: the environment on the [[host OS]] in which Pallas runs
+- [[runtime|Runtime]]: the environment on the [[host OS]] in which Pallas runs

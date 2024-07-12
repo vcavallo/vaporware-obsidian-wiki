@@ -2,7 +2,7 @@
 
 **The below came mostly from an LLM and should be edited**
 
-(SSI) A computational model that emphasizes [[deterministic execution]], state-based execution. In the context of [[Pallas]], the SSI is designed to ensure that every action taken by the system is predictable and reproducible.
+(SSI) A computational model that emphasizes [[deterministic execution]], state-based execution. In the context of [[pallas]], the SSI is designed to ensure that every action taken by the system is predictable and reproducible.
 
 1. **Deterministic Execution**: In an SSI, the output and the new state are entirely determined by the current state and the input. This means that given the same input and initial state, the system will always produce the same output and end state. This predictability is crucial for reliability and debugging.
 

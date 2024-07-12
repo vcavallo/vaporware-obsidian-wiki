@@ -2,4 +2,4 @@
 
 Discuss complex dynamic systems
 
-[[W Brian Arthur]]
+[[w brian arthur]]
