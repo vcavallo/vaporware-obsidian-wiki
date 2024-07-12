@@ -7,6 +7,8 @@ This repo has a `.github/workflows/publish.yml` file which reference the aforeme
 project in order to build these markdown files into a next.js site and publish
 to Vercel.
 
+Content in the `/publish` directory will be built on the final site. Nothing else will be included.
+
 ---
 
 To fork this project, change the `BLOG_REPO` variable in `publish.yml` file to
